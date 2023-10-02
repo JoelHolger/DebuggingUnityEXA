@@ -7,18 +7,16 @@ public class Spawn : MonoBehaviour
     [SerializeField] Transform[] a;
     [SerializeField] GameObject s;
     
-    // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Dothis", 1, .5f);
+        InvokeRepeating("Dothis", 1f, .5f);
     }
 
     void Dothis()
     {
-        Instantiate(a[4], transform.position, Quaternion.identity);
+        Instantiate(a[Random.Range(0, a.Length)], transform.position, Quaternion.identity);
     }
 
-    // Update is called once per frame
     void Update()
     {
     }
