@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class CameraScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,6 +14,6 @@ public class Camera : MonoBehaviour
     void Update()
     {
         GameObject camera = GameObject.FindWithTag("Player");
-        transform.position = camera.transform.position + new Vector3(0,0,-10);
+        transform.position = Vector3.MoveTowards(transform.position, camera.transform.position, 0.1f);
     }
 }
