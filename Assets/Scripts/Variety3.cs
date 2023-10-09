@@ -13,7 +13,6 @@ public class Variety3 : MonoBehaviour
     {
         if (other.gameObject.tag == "dontforgettoupdatethetag")
         {
-            print("got me");
             Destroy(other.gameObject);
             transform.localScale += new Vector3 (.5f,.5f,0);
         }    
