@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
-    [SerializeField] Transform[] a;
-    [SerializeField] GameObject s;
+    [SerializeField] Transform[] PassiveOrganism;
+    [SerializeField] GameObject Enemy;
     
     void Start()
     {
-        InvokeRepeating("Dothis", 1f, .5f);
+        InvokeRepeating("SpawnPassiveOrganism", 1f, 5f);
+        InvokeRepeating("SpawnEnemys", 1f, 2f);
     }
 
-    void Dothis()
+    void SpawnPassiveOrganisms()
     {
-        Instantiate(a[Random.Range(0, a.Length)], transform.position, Quaternion.identity);
+        Instantiate(PassiveOrganism[Random.Range(0, PassiveOrganism.Length)], transform.position, Quaternion.identity);
+    }
+
+    void SpawnEnemys()
+    {
+        Instantiate(Enemy, transform.position, Quaternion.identity);
     }
 }
