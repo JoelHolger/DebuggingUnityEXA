@@ -16,8 +16,4 @@ public class Spawn : MonoBehaviour
     {
         Instantiate(a[Random.Range(0, a.Length)], transform.position, Quaternion.identity);
     }
-
-    void Update()
-    {
-    }
 }
