@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7992012955102187760}
   - component: {fileID: 5710057827988196035}
   m_Layer: 0
-  m_Name: Good Ones
+  m_Name: Green bacteria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

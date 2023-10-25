@@ -1298,12 +1298,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PassiveOrganism:
   - {fileID: 3960173992198889580, guid: 2f682302ce6f5144f910650be1e20c6f, type: 3}
-  - {fileID: 6591715773315204306, guid: f5f4d7d4cd1dc1944ad4d6b4c23e3c01, type: 3}
-  - {fileID: 1602579406357827521, guid: b13c8cd2e7c49df48afe73d784bebb19, type: 3}
-  - {fileID: 1245891230596222239, guid: dd0ed4fe8e35c64499e0bbb8613ed7ea, type: 3}
-  - {fileID: 3847466950129456122, guid: 5d70b10c95c40fd4f8f21a5b08c81cba, type: 3}
-  - {fileID: 2673577944362065315, guid: af6e474daed66b341870e02058a5f076, type: 3}
-  - {fileID: 6330811347431383073, guid: 42fc20900df2b764abf41a885c31b331, type: 3}
   - {fileID: 3467455347775953028, guid: 5b27f4c2dafa8754f8c375458717c856, type: 3}
   Enemy: {fileID: 4675834888588143523, guid: 4e7a35af15a274a4fb80af080336878c, type: 3}
 --- !u!1 &293798885

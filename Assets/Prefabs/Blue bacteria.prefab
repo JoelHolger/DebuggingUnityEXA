@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 963307499111650228}
   - component: {fileID: 7851148883100944343}
   m_Layer: 0
-  m_Name: Blue cell
+  m_Name: Blue bacteria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
